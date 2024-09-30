@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "Promethea Solutions",
+  description: "Automação Empresarial, Inteligência de Negócios e Desenvolvimento de Software",
 };
 
 import Hero from "@/components/hero-home";
