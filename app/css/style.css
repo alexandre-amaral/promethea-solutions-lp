@@ -1,0 +1,71 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Additional styles */
+/* Additional styles */
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/theme.css";
+
+@import "tailwindcss/utilities";
+
+
+@keyframes particle-animation {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-30px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 10px rgba(50, 160, 204, 0.5), 0 0 20px rgba(50, 160, 204, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(50, 160, 204, 0.8), 0 0 30px rgba(50, 160, 204, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(50, 160, 204, 0.5), 0 0 20px rgba(50, 160, 204, 0.3);
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #32a0cc, #94cee4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow-text {
+  text-shadow: 0 0 5px rgba(50, 160, 204, 0.3), 0 0 10px rgba(50, 160, 204, 0.2);
+}
+
+@keyframes orbit {
+  0% { transform: rotate(0deg) translateX(60px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(60px) rotate(-360deg); }
+}
+
+@keyframes zoomInOut {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
