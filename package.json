@@ -2,12 +2,9 @@
   "name": "simple-next",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+ "scripts": {
+  "build": "next build"
+},
   "dependencies": {
     "@headlessui/react": "^2.0.4",
     "@types/node": "^20.10.4",
