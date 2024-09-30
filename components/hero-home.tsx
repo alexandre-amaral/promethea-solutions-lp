@@ -222,7 +222,7 @@ export default function HeroHome() {
                 >
                   <a
                     className="btn group mb-4 w-full bg-[#192B38] text-white shadow hover:bg-[#1f3543] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    href="#https://wa.me/5531989858037?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Promethea.%20"
                   >
                     <span className="relative inline-flex items-center">
                       Comece Agora{" "}
@@ -233,7 +233,7 @@ export default function HeroHome() {
                   </a>
                   <a
                     className="btn w-full bg-white text-[#192B38] shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                    href="#0"
+                    href="#about"
                   >
                     Saiba Mais
                   </a>
